@@ -44,7 +44,7 @@
       <ul>
         <li>Git flow:
         <ul>
-          <li> git pull</li> <!--make sure the branch is up to date -->
+          <li> git pull origin main</li> <!--make sure the branch is up to date -->
           <li>git status : checks what branch we are currently on  </li> <!-- Make sure I'm working on the correct branch -->
           <li>git checkout -b branch-name : creates a new branch and switches to it</li> <!-- This means tha I'm atarting on a new branch -->
           <li> git add -A</li>
@@ -52,7 +52,8 @@
           <li> git pull origin main</li>
           <li> git push origin feature/title-code</li>
         </ul>
-        
+        <li>Update local main branch: git checkout main</li>
+        <li>Pull the remote main branch into the local main branch: git pull origin main</li>
         </li>
       </ul>
     </section>
@@ -61,7 +62,39 @@
 
       <h2>JavaScript</h2>
       <ul>
-        <li>Enter your JavaScript notes here</li>
+        <li>Primitive values:</li>
+        <ul>
+          <li>Null Type: Indicates the absence of an object</li>
+          <li>Undefined Type: Indicates the absence of a value</li>
+          <li>Boolean Type: Represents the logical entity and its inhabited by two values: true and false </li>
+          <li>Number Type: Values outside the range ±(2-1074 to 21024) are automatically converted: </li>
+          <li>Biglnt Type: The BigInt type is a numeric primitive in JavaScript that can represent integers with arbitrary magnitude. With BigInts, you can safely store and operate on large integers even beyond the safe integer limit (Number.MAX_SAFE_INTEGER) for Numbers.
+            A BigInt is created by appending n to the end of an integer or by calling the BigInt() function. </li>
+          <li>String Type: 
+              Use strings for textual data. When representing complex data, parse strings, and use the appropriate abstraction.
+              once a string is created, it is not possible to modify it.
+              A substring of the original using substring().
+              A concatenation of two strings using the concatenation operator (+) or concat() </li>
+          <li> Symbol Type: A Symbol is a unique and immutable primitive value and may be used as the key of an Object property  </li>  
+        </ul> 
+
+        <li>Ojects/identifiers: </li>
+        <ul>
+          <li>Mutable values in memory         </li>
+          <li>Fuctions are also objects with the additional capability of being callable       </li>
+          <li>Objects can be seen as a collection of properties  </li>
+        </ul>
+
+        <li>Variables </li>
+        <ul>
+          <li>Variables are containers that store values.</li>
+          <li>Declare a variable with the let keyword, followed by the name you give to the variable: let nameVariable  </li>
+          <li>Give a values to a varible: nameVariable = "Bob";</li>
+          <li>Or performe both operation at the same time:let myVariable = "Bob";</li>
+          <li> Retrive the value by calling the variable name: nameVariable</li>
+          <li>After assigning a value to a variable, you can change it later in the code:let myVariable = "Bob"; change to: myVariable = "Steve";</li>
+          <li>Variables may hold values tha hae different data types</li>
+        </ul>
       </ul>
     </section>
 
