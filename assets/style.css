@@ -39,10 +39,10 @@
    .card {
     width: 80%;
     margin: 40px auto;
-    border: 5px solid rgb(173, 173, 183);
-    box-shadow: 5px 10px #888689;
+    border: 6px solid rgb(173, 173, 183);
+    box-shadow: 3px 3px #888689;
     background-color:white;
-  
+    border-radius: 25px;
   }
 
     body {
