@@ -27,20 +27,63 @@
         }
       </style>  
       <!-- chatGPT--> 
+      <ul>
+        <li>HTML acts as a blueprint for a webpage, allowing us to define its 
+          structure and determine what elements should be included. It's like using 
+          a set of instructions to build and design a page, specifying what text, 
+          images, and other elements should be present and how they should be organized.</li>
+      </ul>
 <ul>
-      <li>Elements</li>
+      <li>Head Elements</li>
       <ul>
         <li>&lt;html&gt; This is the root element that wraps the entire HTML document.</li>
         <li>&lt;head&gt; Contains metadata and other non-visible elements like the title, stylesheets, scripts, etc. </li>
         <li>&lt;title&gt; Specifies the title of the webpage displayed in the browser's title bar or tab.</li>
+        <li>&lt;style&gt; Is used to embed CSS and contains the CSS rules needed to style the page.</li>
+        <li>&lt;link&gt; Defines the relationship between the current page and an external source.</li>
+        <li>&lt;meta&gt; Defines metadata for the page</li>
+        <li>&lt;script&gt; Is used to embed JavaScript on the page.</li>
+        <li>&lt;noscript&gt; Defines the content to be displayed if scripts are disabled.</li>
+      </ul>
+  </ul>
+
+<ul>
+      <li>Body Elements</li>
+      <ul>
         <li>&lt;body&gt; Encloses the visible content of the webpage.</li>
         <li>&lt;h1&gt; to &lt;h6&gt; Headings of different levels, with &lt;h1&gt; being the highest and &lt;h6&gt; being the lowest.</li>
         <li>&lt;p&gt; Paragraph element used for text content.</li>
         <li>&lt;a&gt; Creates a hyperlink, allowing you to link to other web pages or resources.
         <li>&lt;img&gt; Inserts an image into the webpage.</li>
+        <li>&lt;strong&gt; and &lt;em&gt; elements can respectively bold or italicize a given text element.</li>    
+        <li>&lt;br&gt; Creates a line of empty space between two blocks of content.</li>
         <li>&lt;li&gt; List items using  &lt;ul&gt; or &lt;ol&gt; to define individual items.</li>
         <li>&lt;ul&gt; and &lt;ol&gt; Unordered and ordered lists, respectively.</li>
         <li>&lt;div&gt; A generic container element used for grouping and structuring other elements.</li>
+      </ul>
+</ul>
+
+<ul>
+  <li>Semantic Elements</li>
+  <li>Semantic elements are special tags in HTML that have names describing the 
+    purpose or meaning of the content they enclose. They are used to divide a web 
+    page into different sections.</li>
+  <ul>
+    <li>&lt;article&gt; Used to contain an independent piece of content, such as a blog post or widget.</li>
+    <li>&lt;aside&gt; Used to contain content that often appears to one side and provides extra information about the page's topic.</li>
+    <li>&lt;details&gt; Used for additional details that the user can open or hide on demand.</li>
+    <li>&lt;figcaption&gt;element is used to define a caption for a figure or imag</li>
+    <li>&lt;figure&lt;element is used to define an image. It is often used with &lt;figcaption&gt;.</li>
+    <li>&lt;footer&lt; element is used to define the footer on the page.</li>
+    <li>&lt;main&gt; element is used to define the primary content and is often used with &lt;aside&gt; to define primary and secondary content.</li>
+    <li>&lt;nav&gt; element is used to define the area of the page with navigation links.</li>
+    <li>&lt;section&gt; element is used to group content that can stand on its own in its own section.</li>
+  </ul>
+</ul>
+
+<ul>
+      <li><a href="https://coding-boot-camp.github.io/full-stack/git/getting-started-with-git"> Other Elements</a></li>
+      <ul>
         <li>&lt;span&gt; Inline element used for applying styles or targeting specific parts of text.</li>
         <li>&lt;table&gt; Creates a table with rows (&lt;tr&gt;) and data cells (&lt;td&gt; or &lt;th&gt;).</li>
         <li>&lt;form&gt; Used to create interactive forms for user input.</li>
@@ -48,7 +91,10 @@
         <li>&lt;button&gt; Creates a clickable button.</li>
         <li>&lt;select&gt; and &lt;option&gt; Used to create dropdown/select menus.</li>
       </ul>
-      <!-- I went on a rabbit whole, but I got this information from Educative.io -->
+  </ul>
+
+  
+  <ul>
       <li>Escaping HTML characters</li> 
       <ul>
         <li>less than symbol (<) with &lt;</li> 
@@ -57,12 +103,16 @@
         <li>single quote (’) with &#39; </li>
         <li>ampersand (&) with &amp; </li>
       </ul>
+    </ul>
+
+    <ul>
       <li>Coments on HTML</li> 
-      <ul>
+      <ul><!-- Educative.io -->
         <li>&lt;!-- This is a comment --&gt;</li>
       </ul>
-
     </ul>
+
+  
 
     </section>
 
@@ -107,21 +157,113 @@
     <section class="card" id="git-section">
 
       <h2>Git</h2>
+
+      <li>Git is </li>
+
       <ul>
-        <li>Git flow:
+        <li>GitHub</li>
         <ul>
-          <li> git pull origin main</li> <!--make sure the branch is up to date -->
-          <li>git status : checks what branch we are currently on  </li> <!-- Make sure I'm working on the correct branch -->
-          <li>git checkout -b branch-name : creates a new branch and switches to it</li> <!-- This means tha I'm atarting on a new branch -->
-          <li> git add -A</li>
-          <li> git commit -m "small description of changes in the file" </li>
-          <li> git pull origin main</li>
-          <li> git push origin feature/title-code</li>
+          <li>GitHub is a web-based hosting service for Git repositories. 
+            It provides an online platform for developers to store and manage their Git repositories. </li>
         </ul>
+      </ul>
 
-        <li>Update local main branch: git checkout main</li>
+      <ul>
+        <li> Set up Git username and email address on terminal</li>
+        <ul>
+          <li>git config --global user.name "&lt;your-username&gt;"</li>
+          <li>git config --global user.email "&lt;your-email&gt;"  
+        </ul>
+      </ul>
 
-        <li>Pull the remote main branch into the local main branch: git pull origin main</li>
+      <ul>
+        <li> Check current git configurations on terminal</li>
+        <ul>
+          <li>git config --list</li>
+        </ul>
+      </ul>
+          
+      <ul>
+        <li> Check Git Version</li>
+        <ul>
+          <li>git --version</li>
+        </ul>
+      </ul>
+
+      <ul>
+        <li> Update Git Version</li>
+        <ul>
+          <li>brew upgrade git</li>
+        </ul>
+      </ul>
+          
+      <ul>
+        <li> Set Git default branch to main</li>
+        <ul>
+          <li>git config --global init.defaultBranch main</li>
+        </ul>
+      </ul>
+
+      <ul>
+      <li> Create a New Repository </li>
+      <ul>
+        <li><a href="https://coding-boot-camp.github.io/full-stack/git/getting-started-with-git">Instructions</a></li>
+      </ul>
+    </ul>
+
+    <ul>
+      <li>git status</li>
+      <ul>
+        <li>shows the state of the current repository</li>
+      </ul>
+    </ul>
+
+    <ul>
+      <li>git add</li>
+      <ul>
+        <li>The git add command is used to tell Git that you want to 
+          include certain changes in your project's history. It prepares these
+           changes to be saved in a future snapshot called a commit. Essentially, 
+           it's like telling Git, "Hey, remember this change, I want to keep it!"</li>
+      </ul>
+    </ul>
+
+    <ul>
+      <li>git add .</li>
+      <ul>
+        <li>Tells Git to include any new or modified files in that folder and all its 
+          subfolders.</li>
+      </ul>
+    </ul>
+    
+    <ul>
+      <li>git commit -m "commit message"</li>
+      <ul>
+        <li>Saves all the staged changes as a new snapshot in Git's history. 
+          While including a description messege of the changes that are about to be 
+          committed</li>
+      </ul>
+    </ul>
+
+    <ul>
+      <li>git push origin main</li>
+      <ul>
+        <li>It takes all the changes you've made in your local repository after the 
+          files have been added and commited and sends them to a remote repository (GitHub) 
+          and updates it to the orign main branch. 
+        </li>
+      </ul>
+    </ul>
+
+    <ul>
+      <li>git pull origin main</li>
+      <ul>
+        <li>updates your local repository with the latest changes from the remote repository.
+           It helps you stay in sync with the collaborative work and have the most up-to-date 
+           code on your computer.
+        </li>
+      </ul>
+    </ul>
 
         <ul>
           <li>
@@ -199,17 +341,23 @@
         <li>Commands</li>
           <ul>
             <li>cd —  Change directory</li>
+            <li>cd ~ change to home directory</li>
             <li>cd .. —  Go to previous directory</li>
+            <li>ls view folders and files in he current directory</li>
+            <li>cat, less — view the content inse a file</li>
+            <li>pwd - current directory</li>
             <li>mkdir —  Create directory</li>
             <li>rmdir — removes the named directory, but only if it's empty.</li>
-            <li>-r — removes an inventory thats not empty </li>
+            <li>rm - removes file</li>
+            <li>rm -r removes directory thats not empty</li>
             <li>touch — Created new empty files inside the directory, and modifies their metabase</li>
-            <li>cp — creates a copy of files or directories </li>
-            <li>mv — Moves files or directories from their first specified file to the second specified file location</li>
+            <li>cp - "cp filename copyOfFilename" — creates a copy of files or directories </li>
+            <li>mv — "filename filerename" - renames the file. </li>
+            <li>mv filename ../nameOf Directory - moves a file to a different directory</li>  
             <li>rm — Delete files or directories</li>
             <li>curl — Dowload fils found at specific URL'Sr</li>
             <li>grep — Search for fragments of text iside larger bodies of text</li>
-            <li>cat, less — view the content inse a file</li>
+           
           </ul><!--https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line#basic_built-in_terminal_commands -->
       </ul>
 
@@ -254,7 +402,31 @@
         <li>Rational databases</li>
         <li>Spreadsheets</li>
     </ul><!--https://www.techtarget.com/whatis/definition/metadata-->
+    </ul>
+
+    <ul>
+      <li>Seudo Code</li>
+      <ul>
+        <li>we need to provide the computer as many steps as needed to accomplish the task we awant it to accomplish</li>
+    </ul>
+    </ul>
+
+    <ul>
+      <li>An edge case</li>
+      <ul>
+        <li>Unusual or unexpected scenarios that might not occur frequently but still need to be handle correctly by the code. </li>
+    </ul>
+    </ul>
+<ul>
+  <li>README</li>
+  <ul>
+  <li><a href="https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide">README GUIDE</a></li>
+</ul>
+</ul>
+    
   </ul>
+
+
 
     </section>
 
